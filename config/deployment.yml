@@ -44,9 +44,9 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - name: https
+    - name: http
       protocol: TCP
-      port: 443
+      port: 2025
       targetPort: 5000
   selector:
     app: static-example
